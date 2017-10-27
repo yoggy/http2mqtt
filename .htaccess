@@ -1,0 +1,10 @@
+Options -Indexes
+Options +ExecCGI
+
+AddHandler cgi-script .cgi
+DirectoryIndex http2mqtt.cgi
+
+<Files "config.yaml">
+	deny from all
+</Files>
+
