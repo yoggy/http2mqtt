@@ -22,6 +22,11 @@ POST data
 
     $ curl -H 'Content-Type:application/json' -d '{"topic":"test/topic/name","message":"12345678"}' https://www.example.com/http2mqtt.cgi
 
+IFTTT settings
+----
+
+![ifttt.png](ifttt.png)
+
 github
 ----
 
